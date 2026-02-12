@@ -1,0 +1,87 @@
+{
+  "global_seed": 1145141919, 
+  "ua_config": {
+    "enabled": true,
+    "ua_string": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "platform": "Win32",
+    "language": "en-US"
+  },
+  "webgl": {
+    "vendor": "Google Inc. (NVIDIA)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 Direct3D11, vs_5_0, ps_5_0)",
+    "clear_color_noise": 0.005,
+    "viewport_noise_max": 15,
+    "read_pixels_noise_max": 3
+  },
+  "hardware": {
+    "concurrency": 32,
+    "memory_gb": 16.0
+  },
+  "screen": {
+    "enable_spoofing": true,
+    "width": 1920,
+    "height": 1080,
+    "color_depth": 24
+  },
+  "canvas": {
+    "measure_text_noise_enable": true,
+    "fill_text_offset_max": 3
+  },
+  "rects": {
+    "noise_factor": 0.000005
+  },
+  "fonts": {
+    "offset_noise_prob_percent": 50,
+    "whitelist": [
+      "Arial", "Arial Black", "Bahnschrift", "Calibri", "Cambria", 
+      "Cambria Math", "Candara", "Comic Sans MS", "Consolas", "Constantia",
+      "Corbel", "Courier New", "Ebrima", "Franklin Gothic Medium", "Gabriola",
+      "Gadugi", "Georgia", "Impact", "Ink Free", "Javanese Text", 
+      "Leelawadee UI", "Lucida Console", "Lucida Sans Unicode", "Malgun Gothic", 
+      "Marlett", "Microsoft Himalaya", "Microsoft JhengHei", "Microsoft New Tai Lue", 
+      "Microsoft PhagsPa", "Microsoft Sans Serif", "Microsoft Tai Le", 
+      "Microsoft YaHei", "Microsoft Yi Baiti", "MingLiU-ExtB", "Mongolian Baiti", 
+      "MS Gothic", "MV Boli", "Myanmar Text", "Nirmala UI", "Palatino Linotype", 
+      "Segoe MDL2 Assets", "Segoe Print", "Segoe Script", "Segoe UI", 
+      "Segoe UI Emoji", "Segoe UI Historic", "Segoe UI Symbol", "SimSun", 
+      "Sitka", "Sylfaen", "Symbol", "Tahoma", "Times New Roman", 
+      "Trebuchet MS", "Verdana", "Webdings", "Wingdings", "Yu Gothic"
+    ]
+  },
+  "plugins": {
+      "description_noise_max": 5
+  },
+  "webrtc": {
+    "prevent_ip_leak": true,
+    "device_label_noise_max": 5
+  },
+  "timezone": {
+    "spoofing_enabled": true,
+    "zone_id": "America/New_York"
+  },
+  "geo": {
+    "spoofing_enabled": true,
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "accuracy": 10.0
+  },
+  "battery": {
+    "spoofing_enabled": true,
+    "charging": true,
+    "level": 0.5,
+    "charging_time": 100,
+    "discharging_time": 200
+  },
+  "network": {
+    "spoofing_enabled": true,
+    "rtt": 50,
+    "downlink": 10.0,
+    "effective_type": "4g",
+    "save_data": false
+  },
+  "audio": {
+    "spoofing_enabled": true,
+    "sample_rate_offset": 0,
+    "reduction_noise_factor": 0.001
+  }
+}
