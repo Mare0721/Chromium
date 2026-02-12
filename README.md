@@ -42,7 +42,7 @@ rects_noise_factor: GetClientRects 几何位置微调干扰
 
 width / height: 屏幕总分辨率
 
-availWidth / availHeight: 屏幕可用分辨率。
+Width / Height: 屏幕可用分辨率。
 
 color_depth: 屏幕色彩深度（通常为 24/32）
 
