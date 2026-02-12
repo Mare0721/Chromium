@@ -1,6 +1,6 @@
 ### 整个补丁完全以AI生成
 
-### 指纹修改清单 (40项)  
+### 指纹修改清单
 
 **1. 身份与标识 (UA & Global)**  
 
@@ -8,11 +8,7 @@ global_seed: 全局确定性随机种子，确保同种子下指纹一致
 
 ua_string: 自定义 navigator.userAgent
 
-platform: 伪装 navigator.platform (例: Win32/MacIntel)
-
 language: 伪装 navigator.language 及请求头
-
-platform_version: 内部系统版本标识
 
 mobile: 切换移动端/桌面端模拟模式
 
